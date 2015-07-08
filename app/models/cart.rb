@@ -39,7 +39,4 @@ class Cart
     contents.delete_if { |k, v| k == beer_id }
   end
 
-  # def all_beers
-  #   contents.map do { |item| item.k}
-  # end
 end

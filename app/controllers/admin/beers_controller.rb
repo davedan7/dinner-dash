@@ -1,4 +1,4 @@
-class Admin::BeersController < Admin::BaseController
+  class Admin::BeersController < Admin::BaseController
 
   def new
     @beer = Beer.new
